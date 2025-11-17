@@ -201,6 +201,7 @@
 }
 
 .button-save {
+  display: flex;
   min-block-size: 55px;
   border: 2px solid var(--text-color,#000);
   background-color: var(--bg-color, #fff);
@@ -218,6 +219,8 @@
 }
 
 .floppy-svg {
+  position: relative;
+  z-index: 1;
   width: 21px;
   height: 21px;
   fill: var(--bg-color, #fff);
@@ -225,6 +228,8 @@
 }
 
 .button__text-save {
+  position: relative;
+  z-index: 1;
   font-family: var(--font-press-start, sans-serif);
   font-size: var(--font-sizee-btn, 14px);
   color: var(--bg-color, #fff);
@@ -232,7 +237,6 @@
 
 .button__effect {
   position: relative;
-  z-index: 1;
 }
 
 .button__effect:focus {
@@ -311,6 +315,11 @@
   .dialog-close {
     padding: 12.5px 114.5px;
   }
-
-
+  .button-save {
+    flex-direction: column;
+  }
+  .floppy-svg {
+    width: 28px;
+    margin-top: 2px;
+  }
 }
