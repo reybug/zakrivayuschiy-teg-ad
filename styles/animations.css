@@ -81,6 +81,7 @@
   fill: 0.3s linear 0.06s;
 }
 
+
 .card__icon-button .is-liked {
   animation: scale-like 0.3s ease-in 0.1s 1;
   transform-origin: center;

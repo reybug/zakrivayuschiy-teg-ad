@@ -193,7 +193,6 @@
 
 .card__icon-button {
   border: transparent;
-  transition: transform 0.5s ease-in-out;
 }
 
 .button:focus {
