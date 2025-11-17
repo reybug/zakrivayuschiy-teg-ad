@@ -1,16 +1,3 @@
-/* Опишите в этом файле все keyframes для проекта и стили анимаций иконки Like.
-
-Будьте внимательны! Для корректной работы скриптов на этом сайте нужно, чтобы в HTML некоторые классы были названы особым образом:
-✦ like-icon — для svg-иконки анимированного сердца
-✦ card__like-button — для кнопки Like рядом с иконкой
-✦ card__icon-button — для кнопки, оборачивающей иконку
-✦ card__icon-button — для кнопки, оборачивающей иконку
-✦ is-liked — для обозначения состояния лайкнутой иконки в виде сердца
-✦ button__text — для обозначения текстового элемента внутри кнопки
-
-*/
-  /* Всё что связано с лайком */
-
 .like-icon {
   background-color: transparent;
   border: 2px solid transparent;
@@ -83,7 +70,7 @@
 
 
 .card__icon-button .is-liked {
-  animation: scale-like 0.3s ease-in 0.1s 1;
+  animation: scale-liked 0.3s ease-in 0.1s 1;
   transform-origin: center;
 }
 
@@ -91,7 +78,7 @@
   animation: sparkl-like 0.3s ease-in 0.3s 1;
 }
 
-@keyframes scale-like {
+@keyframes scale-liked {
   from {
     transform: scale(1);
   }
